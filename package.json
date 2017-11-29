@@ -1,0 +1,16 @@
+{
+  "name": "Zomba.io",
+  "version": "1.0.0",
+  "description": "Your alone in a forest. You don't know who is behind you. You must use what is avalible to survive. Or the zombies will infect you!",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zomba.io Development Team",
+  "license": "ISC"
+}
