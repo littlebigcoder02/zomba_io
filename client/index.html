@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<title>Node.js Development</title>
+<link href="/client/style/main.css"/>
+
+<article>
+    <h1>Zomba.io</h1>
+    <div id="gamecontanier">
+       <div id="signDiv">
+	Username: <input id="signDiv-username" type="text"/><br>
+	Password: <input id="signDiv-password" type="password"/>
+	<button id="signDiv-signIn">Play</button>
+	<button id="signDiv-signUp">Sign Up</button> 
+       </div>
+
+<div id="gameDiv" style="display:none;">
+	<canvas id="ctx" width="500" height="500" style="border:1px solid #000000;"></canvas>
+
+	<div id="chat-text" style="width:500px;height:100px;overflow-y:scroll">
+		<div>Hello!</div>
+	</div>
+
+	<form id="chat-form">
+		<input id="chat-input" type="text" style="width:500px"/>
+	</form>
+</div>
+
+<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+<script src="/client/client.js"></script>
+
+
+
+
+
+
+    </div>
+</article>
+</html>
